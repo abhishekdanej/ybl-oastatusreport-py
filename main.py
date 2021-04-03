@@ -1,8 +1,8 @@
 from Record import *
 
-opr_node_file_path = "/root/ybl-report-py/opr_node.txt"
-hc_config_file_path = "/root/ybl-report-py/hc_config.txt"
-output_report_path = "/root/ybl-report-py/OA_status_report.csv"
+opr_node_file_path = "/usr/src/ybl-report-py/opr_node.txt"
+hc_config_file_path = "/usr/src/ybl-report-py/hc_config.txt"
+output_report_path = "/usr/src/ybl-report-py/OA_status_report.csv"
 
 def readNode():
     f = open(opr_node_file_path, "r")
